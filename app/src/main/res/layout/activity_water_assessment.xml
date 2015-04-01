@@ -6,7 +6,54 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.rtbi.wba.Water_assessment">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/custom_button"
+        android:text="Volume of Run Off"
+        android:id="@+id/run_off"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/arrow"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/custom_button"
+        android:text="Actula AWS"
+        android:id="@+id/aws"
+         android:drawableRight="@drawable/arrow"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/run_off"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/custom_button"
+        android:text="Vol.of Water After Evaporation"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/arrow"
+        android:id="@+id/vol"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/aws"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

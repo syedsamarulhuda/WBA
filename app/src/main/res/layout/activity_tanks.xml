@@ -6,7 +6,7 @@
     android:paddingRight="15dp"
     android:paddingBottom="35dp"
     android:paddingTop="30dp"
-    android:background="#B2E6FF"
+    android:background="#f8f8f8"
     tools:context="com.example.rtbi.wba.Tanks">
 
 
@@ -21,11 +21,12 @@
                 android:layout_width="0dip"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="GENERAL DETAILS"
+
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:textColor="#fff"
-                android:background="#FF0000"
+                android:text="GENERAL DETALIS"
+                android:background="@drawable/tile1"
                 android:layout_margin="3dp"
                 android:padding="3dp"
                 android:id="@+id/gen" />
@@ -38,7 +39,7 @@
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:textColor="#fff"
-                android:background="#00CCFF"
+                android:background="@drawable/tile2"
                 android:layout_margin="3dp"
                 android:padding="3dp"
                 android:id="@+id/tank" />
@@ -58,7 +59,7 @@
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:textColor="#fff"
-                android:background="#00CF00"
+                android:background="@drawable/tile3"
                 android:layout_margin="3dp"
                 android:padding="3dp"
                 android:id="@+id/other" />
@@ -71,26 +72,11 @@
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:textColor="#fff"
-                android:background="#FFA319"
+                android:background="@drawable/tile4"
                 android:layout_margin="3dp"
                 android:padding="3dp"
                 android:id="@+id/water" />
         </LinearLayout>
 
-   <!--     <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dip"
-            android:orientation="horizontal"
-            android:layout_weight="1" >
 
-            <Button
-                android:layout_width="0dip"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
-
-            <Button
-                android:layout_width="0dip"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
-        </LinearLayout>-->
     </LinearLayout>
