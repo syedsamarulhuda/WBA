@@ -9,7 +9,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:background="@drawable/custom_button"
+        android:background="@drawable/custom_user"
         android:text="Volume of Run Off"
         android:id="@+id/run_off"
         android:padding="10dp"
@@ -25,7 +25,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:background="@drawable/custom_button"
+        android:background="@drawable/custom_user"
         android:text="Actula AWS"
         android:id="@+id/aws"
          android:drawableRight="@drawable/arrow"
@@ -43,7 +43,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:background="@drawable/custom_button"
+        android:background="@drawable/custom_user"
         android:text="Vol.of Water After Evaporation"
         android:textColor="#fff"
         android:padding="10dp"

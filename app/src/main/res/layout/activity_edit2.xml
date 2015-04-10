@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.rtbi.wba.Edit2">
+
+   <!-- <TextView android:text="Actual AWS"
+        android:id="@+id/text"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#6CB5FF"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actual AWS:-"
+        android:textColor="#6CB5FF"
+        android:textSize="18dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/label"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aws"
+        android:background="@drawable/custom_textview"
+        android:padding="7dp"
+        android:textColor="#6CB5FF"
+        android:layout_below="@+id/label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aws"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_button"
+        android:text="Save"
+        android:textColor="#fff"
+
+        />
+
+</RelativeLayout>

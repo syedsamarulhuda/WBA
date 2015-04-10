@@ -3,9 +3,9 @@
 
     <!--this is to give gradient effect -->
     <gradient   android:angle="270"
-        android:startColor="#ff08abec"
-        android:endColor="#4D6F86"
-        />
+        android:startColor="#6CB5FF"
+        android:endColor="#4fa5d5"
+       />
     <!-- this is make corners of button rounded -->
    <!-- <corners    android:topLeftRadius="5dip"
         android:bottomRightRadius="5dip"
