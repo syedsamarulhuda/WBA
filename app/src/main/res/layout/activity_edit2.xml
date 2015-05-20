@@ -16,16 +16,7 @@
         android:padding="10dp"
         android:layout_height="wrap_content" />-->
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Actual AWS:-"
-        android:textColor="#6CB5FF"
-        android:textSize="18dp"
-        android:layout_marginTop="35dp"
-        android:id="@+id/label"
 
-        />
 
     <EditText
         android:layout_width="match_parent"
@@ -34,12 +25,14 @@
         android:background="@drawable/custom_textview"
         android:padding="7dp"
         android:textColor="#6CB5FF"
-        android:layout_below="@+id/label"
+        android:inputType="numberDecimal"
+        android:hint="Evaporation Rate"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp" />
 
 
     <Button
+        android:id="@+id/edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/aws"
@@ -47,7 +40,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:background="@drawable/custom_button"
-        android:text="Save"
+        android:text="Edit"
         android:textColor="#fff"
 
         />

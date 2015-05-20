@@ -1,0 +1,78 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+
+
+
+ <item android:icon="@drawable/nav"
+        android:id="@+id/select" android:title="SELECT"
+        android:orderInCategory="11111" app:showAsAction="always">
+
+     <menu>
+
+         <!-- Register -->
+         <item
+             android:id="@+id/register"
+             android:icon="@drawable/register"
+             android:orderInCategory="100"
+             android:showAsAction="ifRoom"
+             android:title="Register"/>
+
+         <!-- Help -->
+         <item
+             android:id="@+id/help"
+             android:icon="@drawable/help"
+             android:orderInCategory="100"
+             android:showAsAction="always|withText"
+             android:title="Help"/>
+
+         <!-- Contact -->
+         <item
+             android:id="@+id/contact"
+             android:icon="@drawable/contact"
+             android:orderInCategory="100"
+             android:showAsAction="always|withText"
+             android:title="Contact"/>
+
+
+         <!--  Login -->
+         <item
+             android:id="@+id/login"
+             android:orderInCategory="100"
+             android:icon="@drawable/login"
+             android:showAsAction="always|withText"
+             android:title="Login"/>
+
+     </menu>
+
+
+    </item>
+
+
+
+
+
+   <!-- <item android:icon="@drawable/help"
+        android:id="@+id/help" android:title="Help"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />-->
+
+ <!--   <item android:icon="@drawable/register"
+        android:id="@+id/register" android:title="Register"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+
+    <item android:icon="@drawable/login_icon"
+        android:id="@+id/login" android:title="Login"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />-->
+
+
+
+
+</menu>
+
+
+
+
+

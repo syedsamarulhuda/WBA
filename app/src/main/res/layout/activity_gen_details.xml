@@ -6,139 +6,146 @@
 
 
 
-
     <View
         android:id="@+id/view1"
         android:layout_width="fill_parent"
         android:layout_height="2dp"
         android:layout_marginTop="0dp"
-        android:background="#000"/>
+        android:background="#4fa5d5"/>
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="190dp"
+        android:layout_height="200dp"
         android:id="@+id/image"
         android:scaleType="centerCrop"
         android:layout_below="@+id/view1"
-        android:src="@drawable/no_image" />
+        android:src="@drawable/no" />
     <View
         android:id="@+id/view2"
         android:layout_width="fill_parent"
         android:layout_height="2dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="0dp"
         android:layout_below="@+id/image"
-        android:background="#000"/>
+        android:background="#4fa5d5"/>
 
 
-
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/edit"
-        android:src="@drawable/pencil"
-        android:layout_below="@+id/view2"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="24dp"
-        android:layout_marginEnd="54dp" />
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView"
-        android:layout_below="@+id/edit">
+        android:scrollbars="none"
+        android:layout_below="@+id/view2">
 
         <RelativeLayout
             android:id="@+id/layout"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:padding="35dp">
+            android:padding="0dp">
 
 
             <TextView
                 android:layout_width="fill_parent"
-                android:layout_marginTop="2dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginTop="0dp"
+                android:padding="15dp"
+                android:paddingLeft="40dp"
+
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="tank name"
+
+                android:background="@drawable/label"
                 android:id="@+id/tank_name" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="village"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="15dp"
+                android:paddingLeft="30dp"
+                android:background="@drawable/label"
                 android:layout_below="@+id/tank_name"
                 android:id="@+id/village" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="block"
+                android:padding="15dp"
+                android:paddingLeft="40dp"
+                android:background="@drawable/label"
                 android:layout_below="@+id/village"
                 android:id="@+id/block" />
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="district"
+                android:padding="15dp"
+                android:paddingLeft="40dp"
+                android:background="@drawable/label"
                 android:layout_below="@+id/block"
                 android:id="@+id/district" />
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="latitude"
+                android:padding="15dp"
+                android:paddingLeft="40dp"
+                android:background="@drawable/label"
                 android:layout_below="@+id/district"
                 android:id="@+id/latitude" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="longitude"
+                android:padding="15dp"
+                android:paddingLeft="40dp"
+                android:background="@drawable/label"
                 android:layout_below="@+id/latitude"
                 android:id="@+id/longitude" />
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="basin"
-                android:layout_below="@+id/longitude"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="15dp"
+                android:paddingLeft="40dp"
+                android:background="@drawable/label"
+                 android:layout_below="@+id/longitude"
                 android:id="@+id/basin" />
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:paddingLeft="40dp"
+                android:background="@drawable/label"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="state"
                 android:layout_below="@+id/basin"
                 android:id="@+id/state" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:paddingLeft="40dp"
+                android:background="@drawable/label"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="ayacut"
                 android:layout_below="@+id/state"
                 android:id="@+id/ayacut" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:paddingLeft="40dp"
+                android:background="@drawable/label"
                 android:layout_marginBottom="20dp"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="pwd"
@@ -146,10 +153,9 @@
                 android:id="@+id/pwd" />
 
 
-        </RelativeLayout>
-    </ScrollView>
 
 
-
+</RelativeLayout>
+</ScrollView>
 
 </RelativeLayout>

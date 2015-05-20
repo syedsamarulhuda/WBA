@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rtbi.wba" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/wba_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:background="#ff08abec" >
+        </activity>
+        <activity
+            android:name=".From"
+            android:label="WBA-Registration"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="WBA-Login"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".Manage_user"
+            android:label="@string/title_activity_manage_user" >
+        </activity>
+        <activity
+            android:name=".WBA_details"
+            android:label="@string/title_activity_wba_details" />
+        <activity
+            android:name=".General_details"
+            android:label="@string/title_activity_general_details" >
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".Contact"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name=".User"
+            android:label="@string/title_activity_user"
+            android:parentActivityName=".Manage_user" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.Manage_user" />
+        </activity>
+        <activity
+            android:name=".Tanks"
+            android:label="@string/title_activity_tanks"
+            android:parentActivityName=".WBA_details" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.WBA_details" />
+        </activity>
+        <activity
+            android:name=".Gen_details"
+            android:label="@string/title_activity_gen_details"
+            android:parentActivityName=".Tanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.Tanks" />
+        </activity>
+        <activity
+            android:name=".Tank_details"
+            android:label="@string/title_activity_tank_details"
+            android:parentActivityName=".Tanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.Tanks" />
+        </activity>
+        <activity
+            android:name=".Other_details"
+            android:label="@string/title_activity_other_details"
+            android:parentActivityName=".Tanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.Tanks" />
+        </activity>
+        <activity
+            android:name=".Water_assessment"
+            android:label="@string/title_activity_water_assessment"
+            android:parentActivityName=".Tanks" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.Tanks" />
+        </activity>
+        <activity
+            android:name=".ActualAws"
+            android:label="@string/title_activity_actual_aws"
+            android:parentActivityName=".Water_assessment" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.Water_assessment" />
+        </activity>
+        <activity
+            android:name=".VolEvap"
+            android:label="@string/title_activity_vol_evap"
+            android:parentActivityName=".Water_assessment" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.Water_assessment" />
+        </activity>
+        <activity
+            android:name=".Run"
+            android:label="@string/title_activity_run"
+            android:parentActivityName=".Water_assessment" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.Water_assessment" />
+        </activity>
+        <activity
+            android:name=".Edit2"
+            android:label="@string/title_activity_edit2"
+            android:parentActivityName=".ActualAws"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.ActualAws" />
+        </activity>
+        <activity
+            android:name=".Forgot_Pass"
+            android:label="@string/title_activity_forgot__pass"
+            android:parentActivityName=".Login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rtbi.wba.Login" />
+        </activity>
+        <activity
+            android:name=".Edit_Runoff"
+            android:label="@string/title_activity_edit__runoff"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".Insert_runoff"
+            android:label="@string/title_activity_insert_runoff"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".Insert_vol_tank"
+            android:label="@string/title_activity_insert_vol_tank"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:icon="@drawable/wba_icon"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Insert_aws"
+            android:label="Actual AWS"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".Edit_gen"
+            android:label="General Details"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".Edit_tank"
+            android:label="Tank Details"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".Edit_other"
+            android:label="Other Details"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".Contact_login"
+            android:label="@string/title_activity_contact_login" >
+        </activity>
+        <activity
+            android:name=".Edit_evap"
+            android:label="Vol. After Evaporation"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" >
+        </activity>
+        <activity
+            android:name=".insert_evap"
+            android:label="Insert Rate Of Evaporation"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
+            >
+        </activity>
+    </application>
+
+</manifest>

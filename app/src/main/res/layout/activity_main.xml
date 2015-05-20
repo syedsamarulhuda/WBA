@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    tools:context="com.example.rtbi.wba.From" >
+
+<!--
+<RelativeLayout
+    android:id="@+id/horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <HorizontalScrollView
+
+        android:layout_width="wrap_content"
+
+        android:scrollbars="none"
+        android:fillViewport="true"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="90dp"
+                android:paddingRight="90dp"
+                android:drawableLeft="@drawable/pencil"
+                android:gravity="center"
+                android:id="@+id/register"
+                android:background="@drawable/horiz_menu"
+                android:textColor="#fff"
+                />
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="90dip"
+                android:paddingRight="90dip"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/register"
+                android:drawableLeft="@drawable/contact_us"
+                android:id="@+id/contact"
+                android:background="@drawable/horiz_menu"
+                />
+
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="90dip"
+                android:paddingRight="90dip"
+                android:gravity="center"
+                android:drawableLeft="@drawable/help1"
+                android:layout_toRightOf="@+id/contact"
+                android:id="@+id/help"
+                android:background="@drawable/horiz_menu"
+                android:textColor="#fff"
+                android:textColorHint="@color/abc_primary_text_material_dark" />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="90dp"
+                android:paddingRight="90dp"
+                android:gravity="center"
+                android:drawableLeft="@drawable/login"
+                android:layout_toRightOf="@+id/help"
+                android:id="@+id/login"
+                android:background="@drawable/horiz_menu"
+                android:textColor="#fff"
+                android:textColorHint="@color/abc_primary_text_material_dark" />
+
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+</RelativeLayout>-->
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/comprehension"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:text="Water Balance Assessment"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#176CEC"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sentence1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rural Engineering Technology Clubs (R-ETC) is an initiative of IITM’s Rural Technology and Business Incubator (RTBI) and Council for Science and Technology for Rural India (CSTRI) that commenced in August, 2013 with the intent of leveraging Rural Engineering students to understand the challenges in the fields of Agriculture and Rural Businesses. R-ETC has identified Engineering Colleges in Tamil Nadu, Maharashtra, and Andhra Pradesh to work with. In Tamil Nadu, R-ETC is actively working in two districts namely Sivaganga and Trichy." />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sentence2"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="As part of the initiative, the students in Sivaganga District have selected 27 villages to understand the state of Agriculture and Rural Businesses. Through the preliminary work carried out by students, water scarcity for Agriculture has surfaced as an acute problem in the district." />
+
+    <TextView
+        android:id="@+id/sentence3"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After a series of discussions and interactions with various organizations and experts in the field of water, the idea of “Water Balance Assessment” (WBA) emerged with the intention of understanding the water scenario better in villages." />
+
+    <TextView
+        android:id="@+id/head2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:text="The objectives of conducting WBA include:"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#176CEC"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/sentence4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(1.)To find out the volume of water that a tank /pond/ any other infrastructure would have in a year given the amount of rainfall." />
+
+
+    <TextView
+        android:id="@+id/sentence5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(2.) Depending on the water available, recommendations can be given to farmers on irrigation pattern and water management ." />
+
+
+    <TextView
+        android:id="@+id/sentence6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="(3.) Conducting WBA can also help in understanding the interventions needed with respect to infrastructures." />
+
+
+    <TextView
+        android:id="@+id/sentence7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professor B S Murty from Civil Engineering Department of IIT Madras has put together a simple template for carrying out WBA for rainfed tanks. The template has been crafted keeping in mind that the students, rural youth and villagers will use it in the future without any dependency on external agents." />
+
+    <TextView
+        android:id="@+id/sentence8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="This web application has captured the step wise template to find out the volume of Run-off on each day, actual area of water spread depending on the volume of water and the final volume of water the tank would have after adjusting for evaporation losses." />
+</LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

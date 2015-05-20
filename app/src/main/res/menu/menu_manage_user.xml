@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.rtbi.wba.Manage_user">
+
+
+
+    <item android:id="@+id/return_home"
+        android:icon="@drawable/home" android:title="home"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:icon="@drawable/refresh"
+        android:id="@+id/refresh" android:title="Refresh"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/logout"
+        android:icon="@drawable/logout" android:title="@string/logout"
+        android:orderInCategory="100" app:showAsAction="always" />
+</menu>

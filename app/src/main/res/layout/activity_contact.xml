@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.rtbi.wba.Contact">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="IITMs Rural Technology and Business Incubator (RTBI)"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#4fa5d5"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="10dp"
+        android:text="Module#6, I Floor, IITM Research Park"
+        android:gravity="center"
+        android:textColor="#4fa5d5"
+        android:textSize="16dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="10dp"
+        android:text="Kanagam Road, Taramani"
+        android:gravity="center"
+        android:textColor="#4fa5d5"
+        android:textSize="16dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text4"
+        android:layout_below="@+id/text3"
+        android:layout_marginTop="10dp"
+        android:text="Chennai - 600 113"
+        android:gravity="center"
+        android:textColor="#4fa5d5"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text5"
+        android:layout_below="@+id/text4"
+        android:layout_marginTop="10dp"
+        android:text="Phone: +91 44 66469872"
+        android:gravity="center"
+        android:textColor="#ffff3d33"
+        android:textSize="16dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text6"
+        android:layout_below="@+id/text5"
+        android:layout_marginTop="10dp"
+        android:text="Fax: +91 44 66469872"
+        android:gravity="center"
+        android:textColor="#ffff3d33"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text7"
+        android:layout_below="@+id/text6"
+        android:layout_marginTop="10dp"
+        android:text="Email ID: retc@rtbi.in"
+        android:gravity="center"
+        android:textColor="#ff30d539"
+        android:textSize="16dp"
+        />
+
+</RelativeLayout>

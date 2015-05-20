@@ -1,0 +1,215 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.rtbi.wba.General_details">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:id="@+id/scrollView">
+
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:paddingLeft="@dimen/activity_horizontal_margin"
+           android:paddingRight="@dimen/activity_horizontal_margin"
+           android:paddingTop="@dimen/activity_vertical_margin"
+           android:paddingBottom="@dimen/activity_vertical_margin"
+           >
+
+
+ <!--          <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:textSize="20dp"
+               android:textColor="#ff08abec"
+               android:textStyle="bold"
+               android:padding="10dp"
+               android:textAppearance="?android:attr/textAppearanceLarge"
+               android:text="General Details"
+               android:id="@+id/head"
+               android:layout_marginBottom="15dp"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+           <View
+               android:id="@+id/view"
+               android:layout_width="fill_parent"
+               android:layout_height="2dp"
+               android:layout_marginBottom="10dp"
+               android:layout_below="@+id/head"
+               android:background="#ff08abec"/>-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#19A3FF"
+        android:background="@drawable/custom_textview"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:padding="12dp"
+        android:id="@+id/tank"
+        android:hint="Name Of Tank"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="20dp"
+               android:textColor="#19A3FF"
+               android:ems="10"
+               android:inputType="text"
+               android:padding="12dp"
+               android:id="@+id/village"
+               android:background="@drawable/custom_textview"
+               android:hint="Village"
+               android:layout_below="@+id/tank"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Block"
+               android:ems="10"
+               android:inputType="text"
+               android:padding="12dp"
+               android:layout_marginBottom="20dp"
+               android:textColor="#19A3FF"
+               android:id="@+id/block"
+               android:background="@drawable/custom_textview"
+              android:layout_below="@+id/village"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="20dp"
+               android:ems="10"
+               android:inputType="text"
+               android:padding="12dp"
+               android:textColor="#19A3FF"
+               android:id="@+id/district"
+               android:hint="District"
+               android:background="@drawable/custom_textview"
+               android:layout_alignParentLeft="true"
+               android:layout_below="@+id/block"
+               android:layout_alignParentEnd="true" />
+
+
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="12dp"
+               android:ems="10"
+               android:layout_marginBottom="20dp"
+               android:textColor="#19A3FF"
+               android:id="@+id/latitude"
+               android:background="@drawable/custom_textview"
+               android:hint="Latitude"
+               android:layout_below="@+id/district"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="12dp"
+               android:layout_marginBottom="20dp"
+               android:ems="10"
+               android:textColor="#19A3FF"
+               android:id="@+id/longitude"
+               android:background="@drawable/custom_textview"
+               android:hint="Longitude"
+               android:layout_below="@+id/latitude"
+               android:layout_alignParentLeft="true"
+             />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="12dp"
+               android:ems="10"
+               android:layout_marginBottom="20dp"
+               android:textColor="#19A3FF"
+               android:id="@+id/basin"
+               android:background="@drawable/custom_textview"
+               android:hint="Basin"
+               android:layout_below="@+id/longitude"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="12dp"
+               android:ems="10"
+               android:layout_marginBottom="20dp"
+               android:textColor="#19A3FF"
+               android:id="@+id/state"
+               android:background="@drawable/custom_textview"
+               android:hint="State"
+               android:layout_below="@+id/basin"
+               android:layout_alignParentLeft="true"
+               />
+
+           <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="12dp"
+               android:ems="10"
+           android:layout_marginBottom="20dp"
+           android:textColor="#19A3FF"
+           android:id="@+id/pwd"
+               android:background="@drawable/custom_textview"
+           android:hint="Number in PWD List"
+           android:layout_below="@+id/state"
+           android:layout_alignParentLeft="true"
+           />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:padding="12dp"
+                android:ems="10"
+               android:layout_marginBottom="10dp"
+               android:textColor="#19A3FF"
+               android:id="@+id/ayacut"
+               android:background="@drawable/custom_textview"
+               android:hint="Registered Ayacut"
+               android:layout_below="@+id/pwd"
+               android:layout_alignParentLeft="true"
+               />
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:id="@+id/save"
+               android:text="SAVE"
+               android:layout_margin="30dp"
+               android:textStyle="bold"
+               android:textColor="#fff"
+               android:background="@drawable/custom_button"
+               android:gravity="center"
+               android:layout_below="@+id/ayacut"
+
+               />
+
+       </RelativeLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

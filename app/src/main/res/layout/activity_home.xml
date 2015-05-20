@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.rtbi.wba.Home">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@drawable/custom_user"
+        android:text="Genereal Details"
+        android:drawableLeft="@drawable/general"
+        android:id="@+id/general_details"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableRight="@drawable/arrow"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="@drawable/custom_user"
+        android:text="WBA Details"
+        android:id="@+id/wba_details"
+        android:drawableLeft="@drawable/detail"
+        android:drawableRight="@drawable/arrow"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/general_details"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="@drawable/custom_user"
+        android:text="Contact"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/contact"
+        android:drawableRight="@drawable/arrow"
+        android:id="@+id/contact"
+        android:layout_marginBottom="10dp"
+         android:layout_below="@+id/wba_details"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="@drawable/custom_user"
+        android:text="Help"
+        android:drawableLeft="@drawable/help"
+        android:drawableRight="@drawable/arrow"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/help"
+        android:layout_below="@+id/contact"
+        android:layout_marginBottom="10dp"
+         android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="@drawable/custom_user"
+        android:drawableRight="@drawable/arrow"
+        android:text="Manage User"
+        android:id="@+id/manage_user"
+        android:drawableLeft="@drawable/user"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/help"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+   </RelativeLayout>
+</ScrollView>
+
+   </RelativeLayout>
